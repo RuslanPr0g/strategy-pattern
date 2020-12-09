@@ -31,6 +31,9 @@ namespace StrategyPattern
             {
                 Console.WriteLine($"{ c.GetType().Name } fights - { c.Fight() }");
             }
+
+            Console.WriteLine();
+            Console.WriteLine();
         }
     }
 }
