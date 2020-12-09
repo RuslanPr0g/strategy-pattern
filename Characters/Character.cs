@@ -9,9 +9,9 @@ namespace StrategyPattern
     {
         protected WeaponBehavior weaponBehavior;
 
-        public void Fight()
+        public string Fight()
         {
-            this.weaponBehavior.UseWeapon();
+            return this.weaponBehavior.UseWeapon();
         }
 
         public void SetWeapon(WeaponBehavior w)
